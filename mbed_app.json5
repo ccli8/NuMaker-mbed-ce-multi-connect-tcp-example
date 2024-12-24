@@ -1,0 +1,93 @@
+{
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate"              : 115200,
+            "platform.stdio-convert-newlines"       : true,
+            "platform.heap-stats-enabled"           : 1
+        },
+        "NUMAKER_PFM_NANO130": {
+            "nsapi.default-wifi-security"           : "WPA_WPA2",
+            "nsapi.default-wifi-ssid"               : "\"SSID\"",
+            "nsapi.default-wifi-password"           : "\"PASSWORD\"",
+            "target.components_add"                 : ["ESPRESSIF_ESP8266"],
+            "esp8266.tx"                            : "D1",
+            "esp8266.rx"                            : "D0",
+            "esp8266.rts"                           : "PB_6",
+            "esp8266.cts"                           : "PB_7",
+            "esp8266.rst"                           : "D2",
+            "esp8266.provide-default"               : true
+        },
+        "NUMAKER_PFM_NUC472": {
+            "nsapi.default-wifi-security"           : "WPA_WPA2",
+            "nsapi.default-wifi-ssid"               : "\"SSID\"",
+            "nsapi.default-wifi-password"           : "\"PASSWORD\"",
+            "target.components_add"                 : ["ESPRESSIF_ESP8266"],
+            "esp8266.tx"                            : "PD_15",
+            "esp8266.rx"                            : "PF_0",
+            "esp8266.rts"                           : "PD_14",
+            "esp8266.cts"                           : "PD_13",
+            "esp8266.rst"                           : "D2",
+            "esp8266.provide-default"               : true
+        },
+        "NUMAKER_PFM_M453": {
+            "nsapi.default-wifi-security"           : "WPA_WPA2",
+            "nsapi.default-wifi-ssid"               : "\"SSID\"",
+            "nsapi.default-wifi-password"           : "\"PASSWORD\"",
+            "target.components_add"                 : ["ESPRESSIF_ESP8266"],
+            "esp8266.tx"                            : "A3",
+            "esp8266.rx"                            : "A2",
+            "esp8266.rts"                           : "A5",
+            "esp8266.cts"                           : "A4",
+            "esp8266.rst"                           : "D2",
+            "esp8266.provide-default"               : true
+        },
+        "NUMAKER_IOT_M467": {
+            "nsapi.default-wifi-security"           : "WPA_WPA2",
+            "nsapi.default-wifi-ssid"               : "\"SSID\"",
+            "nsapi.default-wifi-password"           : "\"PASSWORD\"",
+            "target.components_add"                 : ["ESPRESSIF_ESP8266"],
+            "esp8266.tx"                            : "PC_1",
+            "esp8266.rx"                            : "PC_0",
+            "esp8266.rts"                           : "PC_3",
+            "esp8266.cts"                           : "PC_2",
+            "esp8266.rst"                           : "PC_4",
+            "esp8266.provide-default"               : true
+        },
+        "NUMAKER_PFM_M487": {
+            "nsapi.default-wifi-security"           : "WPA_WPA2",
+            "nsapi.default-wifi-ssid"               : "\"SSID\"",
+            "nsapi.default-wifi-password"           : "\"PASSWORD\"",
+            "target.components_add"                 : ["ESPRESSIF_ESP8266"],
+            "esp8266.tx"                            : "D1",
+            "esp8266.rx"                            : "D0",
+            "esp8266.rts"                           : "A2",
+            "esp8266.cts"                           : "A3",
+            "esp8266.rst"                           : "D2",
+            "esp8266.provide-default"               : true
+        },
+        "NUMAKER_IOT_M487": {
+            "nsapi.default-wifi-security"           : "WPA_WPA2",
+            "nsapi.default-wifi-ssid"               : "\"SSID\"",
+            "nsapi.default-wifi-password"           : "\"PASSWORD\"",
+            "target.components_add"                 : ["ESPRESSIF_ESP8266"],
+            "esp8266.tx"                            : "PH_8",
+            "esp8266.rx"                            : "PH_9",
+            "esp8266.rts"                           : "A2",
+            "esp8266.cts"                           : "A3",
+            "esp8266.rst"                           : "PH_3",
+            "esp8266.provide-default"               : true
+        },
+        "NUMAKER_IOT_M263A": {
+            "nsapi.default-wifi-security"           : "WPA_WPA2",
+            "nsapi.default-wifi-ssid"               : "\"SSID\"",
+            "nsapi.default-wifi-password"           : "\"PASSWORD\"",
+            "target.components_add"                 : ["ESPRESSIF_ESP8266"],
+            "esp8266.tx"                            : "PC_7",
+            "esp8266.rx"                            : "PC_6",
+            "esp8266.rts"                           : "PE_13",
+            "esp8266.cts"                           : "PC_8",
+            "esp8266.rst"                           : "PE_12",
+            "esp8266.provide-default"               : true
+        }
+    }
+}
